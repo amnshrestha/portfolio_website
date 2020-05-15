@@ -1,0 +1,306 @@
+html{
+	height:100%;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Helvetica Neue;
+}
+
+
+
+
+.navright{
+	font-size: 20px;
+	margin-right: 25px;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4);
+}
+.nameBig{
+	font-size: 25px;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4);
+}
+.navUnderLine{
+	border-width: 1px;
+	margin-left: 0px;
+	margin-top: 1px;
+	background-color: rgb(255,255,255,0.7);
+}
+.nav-pills .nav-link.active{
+	background-color: #83C1FF;
+	border-radius: 25px;
+}
+
+.boxWithArrow{
+	background-color: #5F5F5F;
+	position: absolute;
+	right: 0px; 
+	bottom:0px;
+	margin-right: 5%;
+	width: 112px;
+	height: 60px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border: 1px solid white;
+}
+
+.downArrowPic{
+	width: 35%;
+	height: 35%;
+	margin-left: 35px;
+	margin-top: 25px;
+	animation: blink 2s infinite;
+}
+
+@keyframes blink{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+
+.firstPage{
+	background-size: cover;
+	position: center;
+	min-height: 100vh;
+	min-width: 100vh;
+	background-image: url('Pictures/coverPic.png');
+}
+
+.firstPage .container{
+	max-width: 90%;
+}
+
+.secondPage{
+	min-height: 80vh;
+}
+
+.thirdPage{
+	min-height: 100vh;
+	background-color: #7566E0;
+	color: white;
+}
+
+.fourthPage{
+	min-height: 100vh;
+	background-color: white;
+	color:black;
+}
+
+.fourthPage .mainTitle{
+	color:#83C1FF;
+}
+
+.fourthPage .titleName{
+	color: #83C1FF;
+}
+
+.fourthPage .maintTitle{
+	color: #83C1FF;
+}
+
+.fourthPage .description{
+	border-left: 1px solid black;
+	padding-left: 3%;
+}
+
+.sixthPage{
+	min-height: 100vh;
+	background-color: white;
+	color:black;
+}
+
+.sixthPage .mainTitle{
+	color:#83C1FF;
+}
+
+.sixthPage .titleName{
+	color: #83C1FF;
+}
+
+.sixthPage .maintTitle{
+	color: #83C1FF;
+}
+
+.seventhPage{
+	min-height: 80vh;
+	color: white;
+	background-color: #707070;
+}
+
+
+.contactImage{
+	width : 50px;
+	max-height : 50px;	
+	position: center;
+	padding-right: 0px;
+}
+
+.contactText{
+	padding-top:20%;
+}
+
+.mainNavBar{
+	padding-top: 5%;
+	margin-right: 5%;
+	background-color: #4A4747;
+	line-height: 60px;
+	border-radius: 0px 0px 25px 25px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+a{
+	color:white;
+}
+
+a:hover{
+	color:#83C1FF;
+}
+
+hr.blueLine{
+	color: black;
+	border-width: 5px;
+	width: 75%;
+	margin-left: 0px;
+	background-color: #83C1FF;
+}
+
+hr.whiteLine{
+	border-width: 5px;
+	width: 75%;
+	margin-left: 0px;
+	background-color: white;
+}
+
+
+.grayLine{
+	margin-top: 2%;
+	width: 75%;
+	height: 30%;
+	background-color: #707070;
+}
+
+
+.blueLine{
+	margin-top: 3%;
+	height: 100%;
+	background-color: #83C1FF;
+}
+
+
+
+
+
+
+
+
+.fifthPage{
+	min-height: 100vh;
+	min-height: 100vh;
+	background-color: #7566E0;
+	color: white;
+}
+
+
+
+.containerSecondPage{
+    /*margin:0;*/
+    width: 100%;
+    padding: auto;
+    margin:auto;
+    margin-top: -22%;
+}
+
+.containerThirdPage{
+	width: 100%;
+	padding-top: 5%;
+}
+
+.containerThirdPage .row{
+	padding-bottom: 5%;
+}
+
+
+.propic{
+	width:inherit;
+}
+
+
+/*texts*/
+.mainBlue{
+	padding-top: 20%;
+	color: #83C1FF;
+	font-size: 80px;
+	line-height: normal;
+}
+
+.mainTitle{
+	padding-top: 2%;
+	text-align: center;
+	font-size: 80px;
+	line-height: normal;
+
+}
+
+.secondBlack{
+	color:black;
+	font-size: 30px;
+}
+
+.thirdBlack{
+	color:black;
+	font-size: 20px;
+}
+
+.titleName{
+	font-weight: bold;
+	/*font-size: 1.25rem;*/
+	font-size: 20px;
+}
+
+
+
+.description{
+	border-left: 1px solid white;
+	padding-left: 3%;
+}
+
+
+
+
+.helloMessage{
+	margin-top: 30%;
+	text-align: center;
+	color: white;
+	
+	font-size: 95px;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
