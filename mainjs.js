@@ -71,16 +71,6 @@ var LinuxSkill = {
 }
 
 
-function myFunction(){
-	alert("Hi");
-}
-
-
-$( '#skillsDetails').scroll(function() {
-   if ( $(this)[0].scrollHeight - $(this).scrollTop() <= $(this).outerHeight()){
-       console.log("Fuck off");
-    } 
-});
 
 
 var javSkillBar = document.querySelector('#javaSkillBar');
@@ -128,11 +118,6 @@ cssSkillBar.style.width = CSSSkill.skillLevel+"%";
 
 var linuxSkillBar = document.querySelector('#linuxSkillBar');
 linuxSkillBar.style.width = LinuxSkill.skillLevel+"%";
-
-
-
-
-
 
 
 

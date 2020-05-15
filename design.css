@@ -1,5 +1,6 @@
 html{
 	height:100%;
+	width: 100%;
 	scroll-behavior: smooth;
 }
 
@@ -215,10 +216,8 @@ hr.whiteLine{
 
 
 .containerSecondPage{
-    /*margin:0;*/
-    width: 100%;
     padding: auto;
-    margin:auto;
+    height: 100%;
     margin-top: -22%;
 }
 
@@ -233,7 +232,8 @@ hr.whiteLine{
 
 
 .propic{
-	width:inherit;
+	width:30vw;
+	height: 30vw;
 }
 
 
@@ -241,7 +241,7 @@ hr.whiteLine{
 .mainBlue{
 	padding-top: 20%;
 	color: #83C1FF;
-	font-size: 80px;
+	font-size: 5vw;
 	line-height: normal;
 }
 
@@ -255,12 +255,12 @@ hr.whiteLine{
 
 .secondBlack{
 	color:black;
-	font-size: 30px;
+	font-size: 2vw;
 }
 
 .thirdBlack{
 	color:black;
-	font-size: 20px;
+	font-size: 1.5vw;
 }
 
 .titleName{
@@ -283,15 +283,13 @@ hr.whiteLine{
 	margin-top: 30%;
 	text-align: center;
 	color: white;
-	
-	font-size: 95px;
+	margin-right: 20%;
+	margin-left: 20%;
+	font-size:8vw;
 
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
-
-	
-
 }
 
 
