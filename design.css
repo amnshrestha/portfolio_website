@@ -34,14 +34,22 @@ body{
 .boxWithArrow{
 	background-color: #5F5F5F;
 	position: absolute;
-	right: 0px; 
 	bottom:0px;
-	margin-right: 5%;
+	margin-left: 87%;
 	width: 112px;
 	height: 60px;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	border: 1px solid white;
+}
+
+.nav{
+	background-color: red;
+	right: 0px; 
+	bottom:0px;
+	margin-left: 87%;
+	width: 112px;
+	height: 60px;
 }
 
 .downArrowPic{
@@ -78,7 +86,7 @@ body{
 }
 
 .secondPage{
-	min-height: 80vh;
+	height: 100vh;
 }
 
 .thirdPage{
@@ -147,13 +155,17 @@ body{
 }
 
 .mainNavBar{
+	width: 100%;
 	padding-top: 5%;
 	margin-right: 5%;
 	background-color: #4A4747;
 	line-height: 60px;
 	border-radius: 0px 0px 25px 25px;
 	text-align: center;
+	background-color: black;
 }
+
+
 
 
 
@@ -208,7 +220,6 @@ hr.whiteLine{
 
 .fifthPage{
 	min-height: 100vh;
-	min-height: 100vh;
 	background-color: #7566E0;
 	color: white;
 }
@@ -216,9 +227,8 @@ hr.whiteLine{
 
 
 .containerSecondPage{
-    padding: auto;
+	margin: 10% auto;
     height: 100%;
-    margin-top: -22%;
 }
 
 .containerThirdPage{
@@ -292,10 +302,174 @@ hr.whiteLine{
 				 0px 18px 23px rgba(0,0,0,0.1);
 }
 
+/* WorkExperience */
+
+
+.workExperienceCard{
+	color: black;
+	margin: 0% auto;
+	
+
+	text-align: center;
+	width: 55%;
+
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.5);
+
+	border-left: 10px solid #525983;
+	background-color: white;
+
+
+}
+
+
+.navBarLeftRight{
+    background-color:#45389D;
+	color: #7566E0;
+	/* width:15%;
+    height:40px; */
+	/* width: 100%; */
+	margin: 0% auto;
+	float:left;
+	box-shadow: -10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.workExperienceCard .titleArea{
+	background-color: #EDEAEA;
+	padding-top: 5%;
+	padding-bottom: 3%;
+}
+
+
+
+.cardDescription{
+	display:none;
+	text-align: left;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5px;
+}
+
+/*Projects section*/
+
+.flip-card-container {
+	width: 300px;
+	height: 400px;
+	perspective: 1000px;
+	margin: 40px;
+}
+.flip-card {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+.flip-card-container:hover .flip-card {
+	transform: rotateY(180deg); /* <=>  rotateY(.5turn) */
+}
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/* border-radius: 0.5rem; */
+}
+.flip-card-front {
+	background-color: #83C1FF;
+	font-size: 1.5rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 20px;
+}
+
+
+
+.flip-card-front:after{
+	content:"";
+	display:block;
+	height : 100%;
+	width: 5px;
+	left:4px;
+	position:absolute;
+	border:  3px solid white;
+	margin-left: 10px;
+}
+
+
+
+.flip-card-back {
+	background-color: white;
+	color: black;
+	transform: rotateY(180deg);
+	border: 5px solid #83C1FF;
+	border-radius: 20px;
+	text-align: center;
+}
+
+
+.flip-card-back p {
+	text-align: center;
+	margin: 1rem;
+	font-weight: bold;
+	font-size: 1.4rem;
+	line-height: 1.5rem;
+}
+.flip-card-back p span {
+	display: block;
+	font-size: 1rem;
+	margin-top: 1.25rem;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.flip-card-back p span img{
+	width: 40px;
+	height: 40px;
+}
+  
 
 
 
 
+/* Trying animation */
+.clear{
+    clear:both;
+}
+
+
+
+
+.circle{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: white;
+    display: block;
+    float: left;
+    margin: 10px 10px;
+}
+
+.selected{
+    background-color: #8A82C7;
+}
+
+.slideTransition{
+	height: 100vh;
+	outline: none;
+}
+
+
+
+/* Project Cards */
+.card{
+	margin:10px;
+	text-align: center;
+}
 
 
 
