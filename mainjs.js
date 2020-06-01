@@ -76,10 +76,6 @@ var LinuxSkill = {
 var javSkillBar = document.querySelector('#javaSkillBar');
 javSkillBar.style.width = JAVASkill.skillLevel+"%";
 
-
-// const javat1 = new TimelineMax();
-// javat1.fromTo(javSkillBar,1, {width:'0%'},{width:JAVASkill.skillLevel+"%"});
-
 var androidSkillBar = document.querySelector('#androidSkillBar');
 androidSkillBar.style.width = AndroidSkill.skillLevel+"%";
 
@@ -120,6 +116,68 @@ var linuxSkillBar = document.querySelector('#linuxSkillBar');
 linuxSkillBar.style.width = LinuxSkill.skillLevel+"%";
 
 
+
+
+var animated = false;
+
+$(function(){
+	$(document).scroll(function(){
+		var skillSection = $("#skillsDetails");
+		// var leadershipSection = $("#leadershipDetails");
+		if($(this).scrollTop() > skillSection.height() * 5.5){
+			if(!animated){
+				animated = true;
+
+				console.log("Animate");
+
+				const javat1 = new TimelineMax();
+				javat1.fromTo(javSkillBar,1, {width:'0%'},{width:JAVASkill.skillLevel+"%"});
+
+				const androidt = new TimelineMax();
+				androidt.fromTo(androidSkillBar,1, {width:'0%'},{width:AndroidSkill.skillLevel+"%"});
+
+				const pythont = new TimelineMax();
+				pythont.fromTo(pythonSkillBar,1, {width:'0%'},{width:PythonSkill.skillLevel+"%"});
+
+				const swiftt = new TimelineMax();
+				swiftt.fromTo(swiftSkillBar,1, {width:'0%'},{width:SwiftSkill.skillLevel+"%"});
+
+				const vbt = new TimelineMax();
+				vbt.fromTo(vbSkillBar,1, {width:'0%'},{width:VBSkill.skillLevel+"%"});
+
+				const phpt = new TimelineMax();
+				phpt.fromTo(phpSkillBar,1, {width:'0%'},{width:PHPSkill.skillLevel+"%"});
+
+				const ct = new TimelineMax();
+				ct.fromTo(cSkillBar,1, {width:'0%'},{width:CSkill.skillLevel+"%"});
+
+				const mysqlt = new TimelineMax();
+				mysqlt.fromTo(mySqlSkillBar,1, {width:'0%'},{width:MYSQLSkill.skillLevel+"%"});
+
+				const htmlt = new TimelineMax();
+				htmlt.fromTo(htmlSkillBar,1, {width:'0%'},{width:HTMLSkill.skillLevel+"%"});
+
+				const photoshopt = new TimelineMax();
+				photoshopt.fromTo(photoshopSkillBar,1, {width:'0%'},{width:PhotoshopSkill.skillLevel+"%"});
+
+				const javascriptt = new TimelineMax();
+				javascriptt.fromTo(javaScriptSkillBar,1, {width:'0%'},{width:JavaScriptSkill.skillLevel+"%"});
+
+				const xmlt = new TimelineMax();
+				xmlt.fromTo(xmlSkillBar,1, {width:'0%'},{width:XMLSkill.skillLevel+"%"});
+
+				const csst = new TimelineMax();
+				csst.fromTo(cssSkillBar,1, {width:'0%'},{width:CSSSkill.skillLevel+"%"});
+
+				const linuxt = new TimelineMax();
+				linuxt.fromTo(linuxSkillBar,1, {width:'0%'},{width:LinuxSkill.skillLevel+"%"});
+			}
+		}else{
+			animated = false;
+		}
+
+	});
+});
 
 // Work Experience Code
 var workExperienceDescription = [];

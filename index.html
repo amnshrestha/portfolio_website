@@ -5,29 +5,18 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+	<link href="https://fonts.googleapis.com/css2?family=Abel&family=Quicksand&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
 	<script src="https://kit.fontawesome.com/b5e09b8fcd.js" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.﻿cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
 
 
 
 	<link rel="stylesheet" type="text/css" href="design.css">
 </head>
 <body data-spy='scroll' data-target = '.nav' data-offset='15'>
-
-
-	<!-- Maybe helps with NavBar -->
-	<!-- <div class="collapse navbar-collapse navbar-ex1-collapse">
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="#">Profile</a></li>
-			<li class=""><a href="#">Experiences</a></li>
-			<li class=""><a href="#">Abilities</a></li>
-			<li class=""><a href="#">Projects</a></li>
-			<li class=""><a href="#">Contact</a></li>
-		</ul>
-	</div> -->
-	<!-- first page -->
-
-
 	
 	<div class = "firstPage">
 
@@ -83,7 +72,7 @@
 			<div class = "row">
 
 				<div class = "col-lg-5">
-					<img src="Pictures/profilePicture.png" class = "propic">
+					<img class = "img-fluid" src="Pictures/profilePicture.png" class = "propic">
 				</div>
 				<div class = "col-lg-7">
 					<div class = "mainBlue">
@@ -238,7 +227,7 @@
 		
 	</div>
 
-	<div id = "projectDetails" class = "fourthPage">
+	<div id = "projectDetails" class = "fourthPage" >
 		<div class = "mainTitle">
 			Projects
 		</div>
@@ -247,12 +236,11 @@
 		<hr class = "blueLine">
 
 
-		<div class = "container">
+		<div class = "container" data-aos="fade-up">
 			
-			<div class = "row">
+			<div class = "row justify-content-center">
 
-				<div class = "col-lg-2">
-				</div>
+				
 				<div class = "col-lg-4">
 					<div class="flip-card-container">
 						<div class="flip-card">
@@ -299,14 +287,9 @@
 						</div>
 					  </div>
 				</div>
-				<div class = "col-lg-2">
-				</div>
 
 			</div>
-			<div class = "row">
-
-				<div class = "col-lg-2">
-				</div>
+			<div class = "row justify-content-center">
 				<div class = "col-lg-4">
 					<div class="flip-card-container">
 						<div class="flip-card">
@@ -350,8 +333,7 @@
 						</div>
 					  </div>
 				</div>
-				<div class = "col-lg-2">
-				</div>
+				
 
 			</div>
 			
@@ -430,43 +412,71 @@
 
 		<hr class = "whiteLine">
 
-		<div class = "container containerThirdPage"  data-aos="fade-right">
-			<div class = "row">
-				<div class = "col-lg-3">
-					<div class = "titleName">Computer Science Undergraduate Council<br></div>
-				</div>
-				<div class = "col-lg-7 col-m-6 col-4 description">
-					<div class = "titleName">President<br></div>
-					May 2020 - Present<br><br>
-					Lead Computer Science Undergraduate Council at UoR in its various efforts to promote collaboration among CS students, connect the department and the student body and manage events and services like hackathon, tutoring services, info sessions and so on.<br> &nbsp;
-				</div>
+		<div class="d-flex flex-column">
+			<div class="cardContainer">
+				<div class="boxHidden">
 
+					<div class="textInsideBox">
+						<h4>CSUG President</h4>
+						
+						<p>Lead Computer Science Undergraduate Council at UoR in its various efforts to promote 
+							collaboration among CS students, connect the department and the student body and manage 
+							events and services like hackathon, tutoring services, info sessions and so on.<br>
+						</p>
+
+					</div>
+				</div>
+				<div class="boxHidden stack-top">
+					
+					<h2>Computer Science Undergraduate Council</h2>
+					  <h4>President</h4>
+					<span>May 2020 - Present</span>
+				</div>
 			</div>
-			<div class = "row">
-				<div class = "col-lg-3">
-					<div class = "titleName">DandyHacks <br>(Hackathon)</div>
-				</div>
-				<div class = "col-lg-7 col-m-6 col-4 description">
-					<div class = "titleName">Director<br></div>
-					March 2018 - October 2019<br><br>
-					Organized two of the biggest hackathons at the University of Rochester. Formed and led the hackathon organizing committee at the university to organize two 36 hour hackathons with a budget of over $12000 each. Each hackathon had around 250 participants.<br> &nbsp;
-				</div>
+			<div class="cardContainer">
+				<div class="boxHidden">
 
+					<div class="textInsideBox">
+						<h4>Director of DandyHacks (Hackathon)</h4>
+						
+						<p>	Organized two of the biggest hackathons at the University of Rochester. 
+							Formed and led the hackathon organizing committee at the university to organize two 36 
+							hour hackathons with a budget of over $12000 each. Each hackathon had around 250 participants.
+							<br> 
+						</p>
+
+					</div>
+				</div>
+				<div class="boxHidden stack-top">
+					
+					<h2>DandyHacks (Hackathon)</h2>
+					  <h4>Director</h4>
+					<span>March 2018 - October 2019</span>
+				</div>
 			</div>
-			<div class = "row">
-				<div class = "col-lg-3">
-					<div class = "titleName">Google Developer Student Club At UoR</div>
-				</div>
-				<div class = "col-lg-7 col-m-6 col-4 description">
-					<div class = "titleName">Event Planning chair<br></div>
-					December 2019 - Present<br><br>
-					Organize and lead study jams and workshop sessions on Google technology such as Google Cloud Platform, Flutter, etc. at the University of Rochester. Work on solution challenge which solves a local problem with the use of technology.<br> &nbsp;
-				</div>
+			<div class="cardContainer">
+				<div class="boxHidden">
 
+					<div class="textInsideBox">
+						<h4>Google Developer Student Club At UoR</h4>
+						
+						<p>	Organize and lead study jams and workshop sessions on Google technology such as 
+							Google Cloud Platform, Flutter, etc. at the University of Rochester. Work on solution 
+							challenge which solves a local problem with the use of technology.<br>
+						</p>
+
+					</div>
+				</div>
+				<div class="boxHidden stack-top">
+					
+					<h2>Google Developer Student Club At UoR</h2>
+					  <h4>Event Planning Chair</h4>
+					<span>December 2019 - Present</span>
+				</div>
 			</div>
 
-			
 		</div>
+			
 		
 	</div>
 

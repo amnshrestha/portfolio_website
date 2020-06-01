@@ -5,7 +5,10 @@ html{
 }
 
 body{
-	font-family: Helvetica Neue;
+	/* font-family: Helvetica Neue; */
+
+	font-family: 'Quicksand', sans-serif;
+
 }
 
 
@@ -74,11 +77,11 @@ body{
 
 
 .firstPage{
-	background-size: cover;
-	position: center;
+	/* background-size: cover;
+	position: center; */
 	height: 100vh;
 	width: 100%;
-	background-image: url('Pictures/coverPic.png');
+	background: url('Pictures/coverPic.png') center center / cover;
 }
 
 .firstPage .container{
@@ -297,6 +300,8 @@ hr.whiteLine{
 	margin-left: 20%;
 	font-size:8vw;
 
+	font-family: 'Source Sans Pro', sans-serif;
+
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
@@ -318,6 +323,7 @@ hr.whiteLine{
 	border-left: 10px solid #525983;
 	background-color: white;
 
+	font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -472,6 +478,59 @@ hr.whiteLine{
 }
 
 
+
+
+/* Leadership Code */
+.cardContainer{
+    width: 60%;
+    height: 200px;
+    position: relative;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 60px;
+
+	
+}
+.boxHidden{
+    width: 100%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+	left: 0;
+	border:5px solid rgb(68, 68, 68);
+	border-radius: 20px;
+	
+
+
+}
+
+
+.textInsideBox{
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.textInsideBox h4{
+	text-align: center;
+}
+
+
+
+.stack-top{
+	z-index: 9;
+	padding-top: 20px;
+	background-color: #45389D;
+	transition: 0.3s;
+	overflow:hidden;
+	text-align:center;
+	color:white;
+}
+
+.cardContainer:hover .stack-top{
+	height: 0%;
+	border:0px;
+	padding-top: 0px;
+}
 
 
 
