@@ -104,6 +104,10 @@ body{
 	color:black;
 }
 
+.mainTitle{
+	font-weight: bold;
+}
+
 .fourthPage .mainTitle{
 	color:#83C1FF;
 }
