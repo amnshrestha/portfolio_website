@@ -1,0 +1,47 @@
+.secondPage{
+    height: 100vh;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+#profilePic{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-right: 5%;
+    border: 5px solid rgb(51, 51, 51);
+}
+
+.details{
+    text-align: left;
+}
+
+.name{
+    color: #83c1ff;
+    font-size: 5vw;
+    line-height: normal;
+}
+
+.info{
+    color:black;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .profilePic{
+        width: 256px;
+        height: 256px;
+    }
+    .name{
+        color: #83c1ff;
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .info{
+        color:black;
+        font-size: 16px;
+        text-align: center;
+
+    }
+  }

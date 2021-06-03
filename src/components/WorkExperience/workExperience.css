@@ -1,0 +1,309 @@
+.ExperiencePage{
+    min-height: 100vh;
+    background-color: #4e4692;
+}
+
+.mainTitle {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 80px;
+    line-height: normal;
+    color: white;
+  }
+
+#experienceDetails{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#experienceDetails .card {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    text-align: center;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  #experienceDetails .card .additional {
+    position: absolute;
+    width: 170px;
+    height: 100%;
+    padding-top: 20px;
+    margin: 0 auto;
+    background: #525983;
+    transition: width 0.15s;
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  
+  
+  #experienceDetails .card:hover .additional {
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #experienceDetails .card .additional .user-card {
+    width: 170px;
+    height: 100%;
+    position: relative;
+    float: left;
+  }
+  
+  #experienceDetails .card .additional .user-card::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: -2px;
+    height: 80%;
+    border-left: 2px solid rgba(0,0,0,0.025);
+  }
+  
+  #experienceDetails .card .additional .user-card .points {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: bold;
+    background: rgba(0,0,0,0.15);
+    padding: 0.125rem 0.75rem;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  #experienceDetails .center {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+  }
+
+  #experienceDetails .eachPoint {
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  #experienceDetails .card .additional .more-info {
+    width: 80%;
+    float: left;
+    position: absolute;
+    left: 170px;
+    height: 100%;
+    padding-left: 3%;
+    text-align: center;
+    color: white;
+  }
+  
+  #experienceDetails .card .additional .more-info h1 {
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  #experienceDetails .card .additional .coords {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  #experienceDetails .card .additional .coords span + span {
+    float: right;
+  }
+  
+  
+  
+  #experienceDetails .card .general {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-left: 23%;
+    background-color: #EDEAEA;
+  }
+  
+
+  #workPlacePic{
+    width: 150px;
+    height: 150px;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  hr.whiteLine {
+    border-width: 5px;
+    width: 75%;
+    margin-left: 0px;
+    background-color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    #experienceDetails{
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    #experienceDetails .card {
+      width: 100%;
+      height: 200px;
+      background-color: #fff;
+      background: linear-gradient(#f8f8f8, #fff);
+      box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+      text-align: center;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+      color: black;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    
+    #experienceDetails .card .additional {
+      position: absolute;
+      width: 120px;
+      height: 100%;
+      padding-top: 10px;
+      margin: 0 auto;
+      background: #525983;
+      transition: width 0.15s;
+      overflow: hidden;
+      z-index: 2;
+    }
+    
+    
+    
+    #experienceDetails .card:hover .additional {
+      width: 100%;
+      border-radius: 0 5px 5px 0;
+    }
+    
+    #experienceDetails .card .additional .user-card {
+      width: 120px;
+      height: 100%;
+      position: relative;
+      float: left;
+    }
+    
+    #experienceDetails .card .additional .user-card::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 10%;
+      right: -2px;
+      height: 80%;
+      border-left: 2px solid rgba(0,0,0,0.025);
+    }
+    
+    #experienceDetails .card .additional .user-card .points {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      background: rgba(0,0,0,0.15);
+      padding: 0.125rem 0.75rem;
+      border-radius: 100px;
+      white-space: nowrap;
+    }
+  
+    #experienceDetails .center {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+    }
+    
+    
+    
+    
+    #experienceDetails .card .additional .more-info {
+      width: 70%;
+      float: left;
+      position: absolute;
+      left: 120px;
+      height: 100%;
+      padding-left: 3%;
+      text-align: center;
+      color: white;
+      overflow-y:auto;
+    }
+    
+    #experienceDetails .card .additional .more-info h1 {
+      color: #fff;
+      margin-bottom: 0;
+    }
+    
+    #experienceDetails .card .additional .coords {
+      margin: 0 1rem;
+      color: #fff;
+      /* //Changed */
+      font-size: 10px;
+    }
+    
+    #experienceDetails .card .additional .coords span + span {
+      float: right;
+    }
+    
+    #experienceDetails .card .additional .stats {
+      font-size: 2rem;
+      display: flex;
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      right: 1rem;
+      top: auto;
+      color: #fff;
+    }
+    
+    #experienceDetails .card .general h1{
+      font-size: 25px;
+      padding-left: 20px;
+    }
+    #experienceDetails .card .additional h1{
+      font-size: 20px;
+      padding-left: 20px;
+      font-weight: bold;
+    }
+   
+    
+    #experienceDetails .card .general {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+      box-sizing: border-box;
+      padding: 1rem;
+      padding-left: 30%;
+      background-color: #EDEAEA;
+      font-size: 10px;
+    }
+
+    #workPlacePic{
+      width: 80px;
+      height: 80px;
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+
+    #experienceDetails .additional {
+      font-size: 1px;
+    }
+
+    #experienceDetails .eachPoint {
+      text-align: left;
+      font-size: 15px;
+    }
+    
+  }
