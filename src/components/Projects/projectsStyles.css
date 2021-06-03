@@ -1,0 +1,105 @@
+#projectsDetails{
+    width: 70%;
+    margin: 0 auto;
+}
+.ProjectsPage .mainTitle {
+    color: #83c1ff;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 80px;
+    line-height: normal;
+  }
+
+.ProjectsPage .blueLine {
+    margin-top: 3%;
+    height: 100%;
+    border-width: 5px;
+    width: 75%;
+    margin-left: 0px;
+    background-color: #83c1ff;
+    background-color: #83c1ff;
+}
+
+.ProjectsPage .flip-card-container {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 40px;
+  }
+.ProjectsPage .flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+  }
+.ProjectsPage .flip-card-container:hover .flip-card {
+    transform: rotateY(180deg); /* <=>  rotateY(.5turn) */
+  }
+  /* Position the front and back side */
+.ProjectsPage .flip-card-front,
+.ProjectsPage .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 0.5rem; */
+  }
+.ProjectsPage .flip-card-front {
+    background-color: #83c1ff;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+
+    border: 5px solid #83c1ff;
+    box-shadow: 4px 4px 1px 1px #fff inset,
+                -4px -4px 1px 1px #fff inset;
+
+  }
+  
+.ProjectsPage .flip-card-front:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 5px;
+    left: 4px;
+    position: absolute;
+    margin-left: 10px;
+  }
+  
+.ProjectsPage .flip-card-back {
+    background-color: white;
+    color: black;
+    transform: rotateY(180deg);
+    border: 5px solid #83c1ff;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+.ProjectsPage .flip-card-back p {
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+  }
+.ProjectsPage .flip-card-back p span {
+    display: block;
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+.ProjectsPage .flip-card-back p span img {
+    width: 40px;
+    height: 40px;
+  }
+
+  

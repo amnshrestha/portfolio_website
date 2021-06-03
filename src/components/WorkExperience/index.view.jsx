@@ -58,7 +58,7 @@ const WorkExperience = () => {
         })
     }
     return (
-        <div className="ExperiencePage">
+        <section className="ExperiencePage">
             
                 <div className="mainTitle">Work Experience</div>
             
@@ -68,7 +68,7 @@ const WorkExperience = () => {
                 <br/>
             </div>
             
-        </div>
+        </section>
     )
 }
 

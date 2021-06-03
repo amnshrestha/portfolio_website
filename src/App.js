@@ -6,12 +6,14 @@ import './assets/css/styles.css'
 import BriefInformation from './components/BriefInformation';
 import Education from './components/Education';
 import WorkExperience from './components/WorkExperience';
+import Projects from './components/Projects';
 function App() {
   return (
     <div className="allContent">
       <MainHomeScreen/>
       <BriefInformation/>
       <WorkExperience/>
+      <Projects/>
     </div>
   );
 }

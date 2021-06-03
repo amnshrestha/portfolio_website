@@ -3,7 +3,7 @@
     background-color: #4e4692;
 }
 
-.mainTitle {
+.ExperiencePage .mainTitle {
     padding-top: 2%;
     text-align: center;
     font-size: 80px;
@@ -43,9 +43,7 @@
     overflow: hidden;
     z-index: 2;
   }
-  
-  
-  
+
   #experienceDetails .card:hover .additional {
     width: 100%;
     border-radius: 0 5px 5px 0;
@@ -91,9 +89,6 @@
     font-size: 20px;
   }
   
-  
-  
-  
   #experienceDetails .card .additional .more-info {
     width: 80%;
     float: left;
@@ -120,8 +115,6 @@
     float: right;
   }
   
-  
-  
   #experienceDetails .card .general {
     width: 100%;
     height: 100%;
@@ -133,7 +126,6 @@
     background-color: #EDEAEA;
   }
   
-
   #workPlacePic{
     width: 150px;
     height: 150px;
