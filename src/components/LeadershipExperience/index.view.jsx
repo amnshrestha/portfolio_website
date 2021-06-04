@@ -33,11 +33,12 @@ const LeadershipExperience = () => {
     }
 
     return (
-        <section className="LeadershipPage">
+        <section id="LeadershipPage">
             <div className="mainTitle">Leadership Experience</div>
             <hr className="whiteLine" />
             <div id="leadershipDetails">
                 {listOfLeadership(leadershipExperience)}
+                <br/>
             </div>
         </section>
     )

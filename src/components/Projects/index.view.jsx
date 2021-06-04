@@ -69,7 +69,7 @@ const Projects = () => {
     }
 
     return (
-        <section className="ProjectsPage">
+        <section id="ProjectsPage">
             <div className="mainTitle">Projects</div>
             <hr className="blueLine"/>
             <div id="projectsDetails">

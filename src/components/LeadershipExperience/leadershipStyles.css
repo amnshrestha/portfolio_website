@@ -1,8 +1,8 @@
-.LeadershipPage{
+#LeadershipPage{
     min-height: 100vh;
-    background-color: #4e4692;
+    background-color: #376288;
 }
-.LeadershipPage .mainTitle {
+#LeadershipPage .mainTitle {
     padding-top: 2%;
     text-align: center;
     font-size: 80px;
@@ -10,7 +10,7 @@
     color: white;
   }
 
-.LeadershipPage   .cardContainer {
+#LeadershipPage   .cardContainer {
     width: 60%;
     height: 200px;
     position: relative;
@@ -18,7 +18,7 @@
     margin-top: 20px;
     margin-bottom: 60px;
   }
-  .LeadershipPage .boxHidden {
+  #LeadershipPage .boxHidden {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -30,26 +30,26 @@
     overflow-y: auto;
   }
   
-  .LeadershipPage .textInsideBox {
+  #LeadershipPage .textInsideBox {
     padding-top: 30px;
     padding-left: 20px;
   }
   
-  .LeadershipPage .textInsideBox h4 {
+  #LeadershipPage .textInsideBox h4 {
     text-align: center;
   }
   
-  .LeadershipPage .stack-top {
+  #LeadershipPage .stack-top {
     z-index: 9;
     padding-top: 20px;
-    background-color: #45389d;
+    background-color: #21496d;
     transition: 0.3s;
     overflow: hidden;
     text-align: center;
     color: white;
   }
   
-  .LeadershipPage .cardContainer:hover .stack-top {
+  #LeadershipPage .cardContainer:hover .stack-top {
     height: 0%;
     border: 0px;
     padding-top: 0px;
@@ -58,23 +58,23 @@
 
   @media only screen and (max-width: 600px) {
 
-    .LeadershipPage .mainTitle {
+    #LeadershipPage .mainTitle {
         padding-top: 2%;
         text-align: center;
-        font-size: 80px;
+        font-size: 40px;
         line-height: normal;
         color: white;
       }
     
-    .LeadershipPage   .cardContainer {
-        width: 60%;
-        height: 200px;
+    #LeadershipPage   .cardContainer {
+        width: 80%;
+        height: 150px;
         position: relative;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 60px;
       }
-      .LeadershipPage .boxHidden {
+      #LeadershipPage .boxHidden {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -86,20 +86,20 @@
         overflow-y: auto;
       }
       
-      .LeadershipPage .textInsideBox {
+      #LeadershipPage .textInsideBox {
         padding-top: 30px;
         padding-left: 20px;
       }
       
-      .LeadershipPage .textInsideBox h4 {
+      #LeadershipPage .textInsideBox h4 {
         text-align: center;
 
       }
       
-      .LeadershipPage .stack-top {
+      #LeadershipPage .stack-top {
         z-index: 9;
         padding-top: 20px;
-        background-color: #45389d;
+        background-color: #21496d;
         transition: 0.3s;
         overflow: hidden;
         text-align: center;
@@ -107,11 +107,20 @@
         font-size: 15px;
         overflow-y: auto;
       }
+
+      #LeadershipPage .stack-top h2{
+        font-size: 20px;
+      }
       
-      .LeadershipPage .cardContainer:hover .stack-top {
+      #LeadershipPage .cardContainer:hover .stack-top {
         height: 0%;
         border: 0px;
         padding-top: 0px;
+      }
+
+      #LeadershipPage .textInsideBox {
+        padding-top: 20px;
+        padding-left: 20px;
       }
     
     

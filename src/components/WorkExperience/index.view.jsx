@@ -22,7 +22,7 @@ const WorkExperience = () => {
                 <div className="card">
                 <div className="additional">
                     <div className="user-card">
-                        <Avatar alt="Place of work" src={eachItem.image} id="workPlacePic"/>
+                        <Avatar alt="Place of work" src={eachItem.image} className="workPlacePic"/>
                         <div className="points center">
                             {eachItem.company.length < 13?
                                 eachItem.company:
@@ -58,12 +58,12 @@ const WorkExperience = () => {
         })
     }
     return (
-        <section className="ExperiencePage">
+        <section id="ExperiencePage">
             
                 <div className="mainTitle">Work Experience</div>
             
                 <hr class="whiteLine" />
-            <div id="experienceDetails">
+                <div id="experienceDetails">
                 {eachWork(mainWorkList)}
                 <br/>
             </div>

@@ -2,7 +2,7 @@
     width: 80%;
     margin: 0 auto;
 }
-.ProjectsPage .mainTitle {
+#ProjectsPage .mainTitle {
     color: #83c1ff;
     padding-top: 2%;
     text-align: center;
@@ -10,7 +10,7 @@
     line-height: normal;
   }
 
-.ProjectsPage .blueLine {
+#ProjectsPage .blueLine {
     margin-top: 3%;
     height: 100%;
     border-width: 5px;
@@ -20,13 +20,13 @@
     background-color: #83c1ff;
 }
 
-.ProjectsPage .flip-card-container {
+#ProjectsPage .flip-card-container {
     width: 300px;
     height: 400px;
     perspective: 1000px;
     margin: 40px;
   }
-.ProjectsPage .flip-card {
+#ProjectsPage .flip-card {
     position: relative;
     width: 100%;
     height: 100%;
@@ -34,12 +34,12 @@
     transform-style: preserve-3d;
 
   }
-.ProjectsPage .flip-card-container:hover .flip-card {
+#ProjectsPage .flip-card-container:hover .flip-card {
     transform: rotateY(180deg); /* <=>  rotateY(.5turn) */
   }
   /* Position the front and back side */
-.ProjectsPage .flip-card-front,
-.ProjectsPage .flip-card-back {
+#ProjectsPage .flip-card-front,
+#ProjectsPage .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -50,7 +50,7 @@
     align-items: center;
     /* border-radius: 0.5rem; */
   }
-.ProjectsPage .flip-card-front {
+#ProjectsPage .flip-card-front {
     background-color: #83c1ff;
     font-size: 1.5rem;
     color: #fff;
@@ -63,7 +63,7 @@
 
   }
   
-.ProjectsPage .flip-card-front:after {
+#ProjectsPage .flip-card-front:after {
     content: "";
     display: block;
     height: 100%;
@@ -73,7 +73,7 @@
     margin-left: 10px;
   }
   
-.ProjectsPage .flip-card-back {
+#ProjectsPage .flip-card-back {
     background-color: white;
     color: black;
     transform: rotateY(180deg);
@@ -82,14 +82,14 @@
     text-align: center;
   }
   
-.ProjectsPage .flip-card-back p {
+#ProjectsPage .flip-card-back p {
     text-align: center;
     margin: 1rem;
     font-weight: bold;
     font-size: 1.4rem;
     line-height: 1.5rem;
   }
-.ProjectsPage .flip-card-back p span {
+#ProjectsPage .flip-card-back p span {
     display: block;
     font-size: 1rem;
     margin-top: 1.25rem;
@@ -97,9 +97,29 @@
     font-weight: normal;
   }
   
-.ProjectsPage .flip-card-back p span img {
+#ProjectsPage .flip-card-back p span img {
     width: 40px;
     height: 40px;
   }
 
   
+  @media only screen and (max-width: 600px) {
+  
+    #ProjectsPage .mainTitle {
+      color: #83c1ff;
+      padding-top: 2%;
+      text-align: center;
+      font-size: 40px;
+      line-height: normal;
+    }
+
+    #ProjectsPage .flip-card-container {
+      width: 250px;
+      height: 350px;
+    }
+
+    #ProjectsPage .flip-card-back {
+      padding-top: 50px;
+      overflow-y: auto;
+    }
+  }

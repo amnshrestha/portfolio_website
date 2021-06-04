@@ -1,5 +1,7 @@
 /* This file is for global styles */
-
+html{
+    scroll-behavior: smooth;
+}
 .allContent {
     height: 100%;
     width: 100%;

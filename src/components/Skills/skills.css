@@ -1,0 +1,75 @@
+#SkillsPage{
+    min-height: 100vh;
+}
+
+#SkillsPage .mainTitle {
+    color: #83c1ff;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 80px;
+    line-height: normal;
+  }
+
+#SkillsPage .blueLine {
+    margin-top: 3%;
+    height: 100%;
+    border-width: 5px;
+    width: 75%;
+    margin-left: 0px;
+    background-color: #83c1ff;
+}
+
+#SkillsPage #skillsDetails{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+#SkillsPage .eachSkillItem{
+    padding:15px 15px;
+
+
+    overflow:hidden;
+}
+
+
+
+#SkillsPage .title{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+#SkillsPage .grayLine {
+    margin-top: 2%;
+    width: 80%;
+    height: 5px;
+    background-color: #707070;
+    border-radius: 10px;
+
+}
+  
+#SkillsPage .progressLine {
+    margin-top: 3%;
+    height: 100%;
+    background-color: #83c1ff;
+    border-radius: 10px;
+
+}
+
+#SkillsPage .technologyImage{
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #SkillsPage .technologyImage{
+        /* width: 50px;
+        height: 50px; */
+        width: 0px;
+        height: 0px;
+    }
+}

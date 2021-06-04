@@ -1,9 +1,9 @@
-.ExperiencePage{
+#ExperiencePage{
     min-height: 100vh;
     background-color: #4e4692;
 }
 
-.ExperiencePage .mainTitle {
+#ExperiencePage .mainTitle {
     padding-top: 2%;
     text-align: center;
     font-size: 80px;
@@ -126,7 +126,7 @@
     background-color: #EDEAEA;
   }
   
-  #workPlacePic{
+  #ExperiencePage .workPlacePic{
     width: 150px;
     height: 150px;
     margin-left: 8%;
@@ -141,6 +141,10 @@
   }
 
   @media only screen and (max-width: 600px) {
+
+    #ExperiencePage .mainTitle {
+      font-size: 40px;
+    }
 
     #experienceDetails{
       width: 100%;
@@ -282,7 +286,7 @@
       font-size: 10px;
     }
 
-    #workPlacePic{
+    #ExperiencePage  .workPlacePic{
       width: 80px;
       height: 80px;
       margin-left: 8%;

@@ -8,14 +8,21 @@ import Education from './components/Education';
 import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import LeadershipExperience from './components/LeadershipExperience';
+import Skills from './components/Skills';
+import Contact from './components/Contact/index';
+import NavBar from './components/NavBar';
 function App() {
   return (
     <div className="allContent">
       <MainHomeScreen/>
+      <NavBar/>
+
       <BriefInformation/>
       <WorkExperience/>
       <Projects/>
       <LeadershipExperience/>
+      <Skills/>
+      <Contact/>
     </div>
   );
 }

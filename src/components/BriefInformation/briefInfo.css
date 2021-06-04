@@ -28,9 +28,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .profilePic{
+   
+    #profilePic{
         width: 256px;
         height: 256px;
+        border: 5px solid rgb(51, 51, 51);
+        margin-right: 0;
     }
     .name{
         color: #83c1ff;

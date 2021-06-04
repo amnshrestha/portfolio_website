@@ -1,0 +1,45 @@
+#contactPage {
+    min-height: 80vh;
+    color: white;
+    background-color: #707070;
+  }
+
+
+  #contactPage .contactList{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5%;
+    align-items:center;
+}
+
+  #contactPage .mainTitle {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 80px;
+    line-height: normal;
+    color: white;
+  }
+  
+ #contactPage .contactImage {
+    width: 50px;
+    max-height: 50px;
+    position: center;
+    padding-right: 0px;
+  }
+  
+
+
+  #contactPage .contactTitle{
+      padding-left: 5%;
+  }
+
+  #contactPage a{
+      color: white;
+      text-decoration: none;
+    }
+
+  @media only screen and (max-width: 600px) {
+    #contactPage .mainTitle {
+        font-size: 40px;
+      }
+    }

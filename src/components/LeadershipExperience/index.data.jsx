@@ -7,7 +7,7 @@ const leadershipExperience = [
         description:"CSUG is one of the biggest clubs at UoR. As president, I led an e-board which focused on supporting and promoting the academic and professional career of our members. The e-board organized networking events, information sessions and hackathons. We created open-source projects to promote open-source development among our members. These projects would also be a crowd sourced resource for our members.",
     },
     {
-        place:"DandhHacks (Hackathon)",
+        place:"DandyHacks (Hackathon)",
         position:"Director",
         combinedPosition:"DandyHacks Director", //This is not entirely necessary
         date:"March 2018 - October 2019",
