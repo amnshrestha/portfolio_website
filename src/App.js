@@ -7,6 +7,7 @@ import BriefInformation from './components/BriefInformation';
 import Education from './components/Education';
 import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
+import LeadershipExperience from './components/LeadershipExperience';
 function App() {
   return (
     <div className="allContent">
@@ -14,6 +15,7 @@ function App() {
       <BriefInformation/>
       <WorkExperience/>
       <Projects/>
+      <LeadershipExperience/>
     </div>
   );
 }
