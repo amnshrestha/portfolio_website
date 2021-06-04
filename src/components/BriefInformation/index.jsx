@@ -18,7 +18,7 @@ const BriefInformation = () => {
             alignItems="center"
             className="secondPage"
             >            
-                <Grid item sm={12} md = {5}>
+                <Grid item sm={12} sm = {5}>
                     <Avatar alt="Aman Shrestha" src={profilePic} id="profilePic"/>
                 </Grid>
                 <Grid item sm={12} md = {7} className="details">

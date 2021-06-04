@@ -11,6 +11,8 @@ import LeadershipExperience from './components/LeadershipExperience';
 import Skills from './components/Skills';
 import Contact from './components/Contact/index';
 import NavBar from './components/NavBar';
+
+import"./assets/js/help.js"
 function App() {
   return (
     <div className="allContent">
