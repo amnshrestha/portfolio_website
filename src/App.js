@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+
+
+
 import MainHomeScreen from './components/WelcomeScreen/MainHomeScreen';
 
 import './assets/css/styles.css'
@@ -12,7 +15,8 @@ import Skills from './components/Skills';
 import Contact from './components/Contact/index';
 import NavBar from './components/NavBar';
 
-import"./assets/js/help.js"
+
+
 function App() {
   return (
     <div className="allContent">

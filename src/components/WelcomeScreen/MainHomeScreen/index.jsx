@@ -1,37 +1,23 @@
-import React , {useState, useEffect} from 'react';
+import React from 'react';
 import TopNav from '../TopNav';
+
+import downArrow from '../../../assets/images/downArrow.png'
 
 import { makeStyles } from '@material-ui/core/styles';
 
-import coverPic from '../../../assets/images/coverPic.png'
 
-const useStyles = makeStyles(() => ({    // this group of buttons will be aligned to the right side
-    firstPage:{
-        height: '100vh',
-        width: '100%',
-        background:`url(${coverPic}) center center / cover`
-    },
-    welcomeMessage: {
-        marginTop: '30%',
-        textAlign: 'center',
-        color: 'white',
-        marginRight: '20%',
-        marginLeft: '20%',
-        fontSize: '8vw',
-      
-        /* font-family: 'Source Sans Pro', sans-serif; */
-      
-        textShadow: '0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),0px 18px 23px rgba(0, 0, 0, 0.1)',
-    },
-}));
+import "./mainHomeScreen.css";
+
+
 
 const MainHomeScreen = () => {
-    const classes = useStyles();
 
 	return (
-		<section className={classes.firstPage}>
+		<section className="welcomeScreen">
             <TopNav/>
-            <div className={classes.welcomeMessage}>Hello, I'm Aman</div>
+            <div className="welcomeMessage">Hello, I'm Aman</div>
+            <a href="#briefInfoSection"><span class="boxWithArrow"><img src={downArrow}
+					className="downArrowPic"/></span></a>
         </section>
 	);
 };

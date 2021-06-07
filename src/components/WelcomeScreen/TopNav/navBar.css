@@ -1,5 +1,5 @@
 .customNavBar{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -17,3 +17,28 @@
     border-width: 1px;
     background-color: rgb(255, 255, 255, 0.7);
 }
+.phoneVersion{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .normalScreen {
+      display: none;
+    }
+    .customNavBar{
+        width: 100%;
+    }
+    .phoneVersion{
+        display: block;
+        /* box-shadow: 0 5px 5px #353535; */
+    }
+    .phoneScreenNavItem{
+        font-size: 15px;
+    }
+
+    .scrolled {
+        background-color: #7facda;
+        transition: background-color 200ms linear;
+    }
+  }
+

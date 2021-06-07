@@ -12,7 +12,20 @@
     background-color: black;
   }
 
-  .nav-pills .nav-link.active {
-    background-color: #83c1ff;
+  /* Overwritting  */
+  .nav-pills .nav-link{
     border-radius: 25px;
+    color: white;
+  }
+
+.chosen {
+  background-color: #83c1ff;
+  border-radius: 25px;
+}
+
+
+  @media only screen and (max-width: 600px) {
+    .mainNavBar {
+      display: none;
+    }
   }
