@@ -27,6 +27,27 @@
     font-size: 2vw;
 }
 
+/* For letters of Google */
+.letter_g{
+    color: #4384f3;
+}
+.letter_o{
+    color: #ea4435;
+}
+.letter_o2{
+    color: #fbbc04;
+}
+.letter_g2{
+    color: #4384f3;
+}
+.letter_l{
+    color: #33a952;
+}
+.letter_e{
+    color: #ea4435;
+}
+
+
 @media only screen and (max-width: 600px) {
    
     #profilePic{

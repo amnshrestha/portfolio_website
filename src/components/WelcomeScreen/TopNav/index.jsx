@@ -17,9 +17,9 @@ const TopNav = () => {
                 <ul className="navbar-nav mr-auto">
                 </ul>
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
+                    {/* <li className="nav-item active">
                         <a className="nav-link text-white" href="#">Resume</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item active">
                         <a className="nav-link text-white" href="#contactPage">Contact</a>
                     </li>
@@ -59,10 +59,10 @@ const TopNav = () => {
                         <li className="nav-item active" id = "phoneScreenNavTo_Contact">
                             <a className="nav-link text-white phoneScreenNavItem" href="#contactPage">Contact</a>
                         </li>
-                        <hr/>
+                        {/* <hr/>
                         <li className="nav-item active">
                             <a className="nav-link text-white phoneScreenNavItem" href="#">Resume</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

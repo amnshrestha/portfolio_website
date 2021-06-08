@@ -31,6 +31,9 @@
         $(".nav").find(".chosen").removeClass("chosen");
         $('#navTo_Experience').addClass("chosen");
 
+
+        $('#navTo_Experience').addClass("chosenSecond");
+
         $('#phoneScreenPlace').text("Work Experience");
         
 
@@ -40,6 +43,7 @@
       if ($(this).scrollTop() >= $('#ProjectsPage').position().top - scrollBuffer && $(this).scrollTop() < $('#LeadershipPage').position().top) {
         
         $(".nav").find(".chosen").removeClass("chosen");
+
         $('#navTo_Projects').addClass("chosen");
 
         $('#phoneScreenPlace').text("Projects");
@@ -52,9 +56,10 @@
         
         $(".nav").find(".chosen").removeClass("chosen");
         $('#navTo_Leadership').addClass("chosen");
-        
+
+                
         $('#phoneScreenPlace').text("Leadership Experience");
-        $(".phoneVersion").css("background-color", "#5D6F80");
+        $(".phoneVersion").css("background-color", "#21496D");
 
 
       }
@@ -74,6 +79,8 @@
         $('#navTo_Contact').addClass("chosen");
 
         $('#phoneScreenPlace').text("Contact");
+
+        $(".phoneVersion").css("background-color", "#353535");
       }
 
     });

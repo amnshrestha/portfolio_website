@@ -23,9 +23,15 @@ const BriefInformation = () => {
                 </Grid>
                 <Grid item sm={12} md = {7} className="details">
                     <div className="name">Aman Shrestha</div>
-                    <div className="info">Incoming Cloud Technical Resident @ Google
+                    <div className="info">Incoming Cloud Technical Resident 
+                    @ <span className="letter_g">G</span>
+                    <span className="letter_o">o</span>
+                    <span className="letter_o2">o</span>
+                    <span className="letter_g2">g</span>
+                    <span className="letter_l">l</span>
+                    <span className="letter_e">e</span>
                     <br/>
-                    B.S. in Computer Science from University of Rochester
+                    B.S. in Computer Science <br/> University of Rochester
                     </div>
                 </Grid>
             </Grid>

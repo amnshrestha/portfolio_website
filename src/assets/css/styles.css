@@ -1,6 +1,11 @@
 /* This file is for global styles */
 html{
     scroll-behavior: smooth;
+    
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
 }
 .allContent {
     height: 100%;
