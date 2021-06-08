@@ -16,8 +16,12 @@ const MainHomeScreen = () => {
 		<section className="welcomeScreen">
             <TopNav/>
             <div className="welcomeMessage">Hello, I'm Aman</div>
-            <a href="#briefInfoSection"><span class="boxWithArrow"><img src={downArrow}
-					className="downArrowPic"/></span></a>
+            <a href="#briefInfoSection" className="segueLink">
+                  <span class="boxWithArrow">
+                        <img src={downArrow}
+					className="downArrowPic"/>
+                  </span>
+            </a>
         </section>
 	);
 };

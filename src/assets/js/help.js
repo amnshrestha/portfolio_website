@@ -5,6 +5,8 @@
       var $nav = $(".phoneVersion");
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 
+
+
       var scrollBuffer = 50;
 
       
@@ -12,6 +14,8 @@
         $('#phoneScreenPlace').text("Aman Shrestha");
         $(".phoneVersion").css('background-color', '#00000000');
         $(".phoneVersion").css('box-shadow', '0 0 0 #00000000');
+
+
       }
       
 
@@ -22,6 +26,7 @@
         $('#phoneScreenPlace').text("Profile");
         $(".phoneVersion").css("background-color", "#7facda");
 
+
         $(".phoneVersion").css('box-shadow', '0 5px 5px #353535');
 
 
@@ -31,11 +36,8 @@
         $(".nav").find(".chosen").removeClass("chosen");
         $('#navTo_Experience').addClass("chosen");
 
-
         $('#navTo_Experience').addClass("chosenSecond");
-
         $('#phoneScreenPlace').text("Work Experience");
-        
 
         $(".phoneVersion").css("background-color", "#3e4464");
 
@@ -84,6 +86,7 @@
       }
 
     });
+
 
     // $(".mainNavBar .nav-link").on("click", function(){
     //   // alert("motherfucker")

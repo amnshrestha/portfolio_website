@@ -33,7 +33,7 @@ const TopNav = () => {
         <div className="customNavBar phoneVersion fixed-top">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <a className="navbar-brand text-white" id = "phoneScreenPlace" href="#">Aman Shrestha</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button id="#navBarToggler" className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon text-white"></span>
                 </button>
 
