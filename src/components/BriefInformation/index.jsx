@@ -23,7 +23,7 @@ const BriefInformation = () => {
                 </Grid>
                 <Grid item sm={12} md = {7} className="details">
                     <div className="name">Aman Shrestha</div>
-                    <div className="info">Incoming Cloud Technical Resident 
+                    <div className="info">Cloud Technical Resident 
                     @ <span className="letter_g">G</span>
                     <span className="letter_o">o</span>
                     <span className="letter_o2">o</span>
