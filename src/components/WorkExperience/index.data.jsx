@@ -3,9 +3,22 @@ import fnLogo from "../../assets/images/FNLogo.png"
 import fsLogo from "../../assets/images/FSLogo.png"
 import careersuncorked from "../../assets/images/careersuncorkedlogo.jpeg"
 import daadRise from "../../assets/images/DAADRise.png"
-
+import googleLogo from "../../assets/images/GoogleLogo.jpeg"
 
 const mainWorkList = [
+    {   
+        image: googleLogo,
+        title : "Cloud Technical Resident",
+        company: "Google",
+        location: "Austin TX",
+        date:'August 2021 - Present',
+        description:["Completed training on various Google Cloud Products", 
+        "Complete Associate Cloud Engineer Certification",
+        "Built backend features and added error reporting to internal tool where Google Cloud demos are posted",
+        "Curated and Created technical demo using Google Cloud products",
+        "Created narrative demos for Financial Services Industry",
+        ]
+    },
     {   
         image: fnLogo,
         title : "Software Engineering Intern",
