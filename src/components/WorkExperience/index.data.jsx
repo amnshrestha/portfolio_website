@@ -8,15 +8,28 @@ import googleLogo from "../../assets/images/GoogleLogo.jpeg"
 const mainWorkList = [
     {   
         image: googleLogo,
-        title : "Cloud Technical Resident",
+        title : "Cloud Technical Resident (Training)",
         company: "Google",
         location: "Austin TX",
         date:'August 2021 - Present',
-        description:["Completed training on various Google Cloud Products", 
-        "Complete Associate Cloud Engineer Certification",
+        description:[
+        "Completed 12 trainings and courses in using Google Cloud",
+        "Built demo e-commerce website using Node, REACT, App Engine and Cloud Storage",
+        "Completed Associate Cloud Engineer Certification",
+        ]
+    },
+    {   
+        image: googleLogo,
+        title : "Solutions Engineer (Rotation)",
+        company: "Google",
+        location: "Austin TX",
+        date:'November 2021 - February 2022',
+        description:[
         "Built backend features and added error reporting to internal tool where Google Cloud demos are posted",
-        "Curated and Created technical demo using Google Cloud products",
-        "Created narrative demos for Financial Services Industry",
+        "Conceptualized always-on demo environment for FSI",
+        "Built demo bank website using REACT and GKE as MVP for always-on demo environment",
+        "Curated and created technical Google Cloud demos",
+        "Created narrative demos for FSI",
         ]
     },
     {   
