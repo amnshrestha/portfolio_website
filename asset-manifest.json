@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e68174c2.chunk.css",
-    "main.js": "/static/js/main.3272d25f.chunk.js",
-    "main.js.map": "/static/js/main.3272d25f.chunk.js.map",
+    "main.js": "/static/js/main.ddea2050.chunk.js",
+    "main.js.map": "/static/js/main.ddea2050.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b0cc5074.js",
     "runtime-main.js.map": "/static/js/runtime-main.b0cc5074.js.map",
     "static/js/2.4d963676.chunk.js": "/static/js/2.4d963676.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.4d963676.chunk.js.LICENSE.txt": "/static/js/2.4d963676.chunk.js.LICENSE.txt",
     "static/media/DAADRise.269d96f9.png": "/static/media/DAADRise.269d96f9.png",
     "static/media/FNLogo.234ecf1a.png": "/static/media/FNLogo.234ecf1a.png",
+    "static/media/GoogleLogo.69815e5c.jpeg": "/static/media/GoogleLogo.69815e5c.jpeg",
     "static/media/JavaScriptLogo.266bd9fb.png": "/static/media/JavaScriptLogo.266bd9fb.png",
     "static/media/cLogo.837a4911.png": "/static/media/cLogo.837a4911.png",
     "static/media/careersuncorkedlogo.54d8dcc6.jpeg": "/static/media/careersuncorkedlogo.54d8dcc6.jpeg",
@@ -43,6 +44,6 @@
     "static/js/runtime-main.b0cc5074.js",
     "static/js/2.4d963676.chunk.js",
     "static/css/main.e68174c2.chunk.css",
-    "static/js/main.3272d25f.chunk.js"
+    "static/js/main.ddea2050.chunk.js"
   ]
 }
